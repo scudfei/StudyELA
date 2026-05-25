@@ -1,3 +1,9 @@
+---
+layout: default
+title: "Alberta ELA Terminology Study Guide"
+permalink: /Alberta_ELA_Terminology_Study_Guide
+---
+
 # Alberta ELA Terminology Study Guide
 
 Created: 2026-05-24
