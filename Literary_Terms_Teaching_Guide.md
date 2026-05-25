@@ -1,3 +1,9 @@
+---
+layout: default
+title: "Literary Terms Teaching Guide"
+permalink: /Literary_Terms_Teaching_Guide
+---
+
 # Literary Terms Teaching Guide: Five Groups of Commonly Confused Concepts
 
 *All examples have been verified against canonical literary works and standard educational references.*
