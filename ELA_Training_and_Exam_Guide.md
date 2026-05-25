@@ -1,3 +1,9 @@
+---
+layout: default
+title: "ELA Training and Exam Guide"
+permalink: /ELA_Training_and_Exam_Guide
+---
+
 # ELA Reading Comprehension — Training & Exam Guide
 
 *Two-part structure: daily training builds capacity; exam tactics execute it under pressure.*
