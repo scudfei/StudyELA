@@ -1,3 +1,9 @@
+---
+layout: default
+title: "ELA Writing Logic Framework"
+permalink: /ELA_Writing_Logic_Framework
+---
+
 # 🧬 破解 ELA 写作：理科生的结构化高分框架 (基于 Alberta 大纲)
 
 ## ⚠️ 批判性反思与内容来源声明 (Critical Reflection & Disclaimer)
