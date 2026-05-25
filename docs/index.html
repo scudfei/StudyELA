@@ -105,10 +105,7 @@
             margin-bottom: 3rem;
         }
 
-        /* Full-width featured card */
-        .card-featured {
-            grid-column: 1 / -1;
-        }
+        .card-featured { grid-column: 1 / -1; }
 
         @media (max-width: 580px) {
             .cards { grid-template-columns: 1fr; }
@@ -140,21 +137,18 @@
             flex-direction: column;
         }
 
-        /* Featured card body layout */
         .card-featured .card-body {
             display: grid;
             grid-template-columns: 1fr 1fr;
             gap: 0 2rem;
         }
 
-        .card-featured .card-header { grid-column: 1 / -1; }
-        .card-featured .card-desc  { grid-column: 1 / -1; }
-        .card-featured .card-link  { grid-column: 1 / -1; width: fit-content; }
+        .card-featured .card-header,
+        .card-featured .card-desc,
+        .card-featured .card-link { grid-column: 1 / -1; }
 
         @media (max-width: 700px) {
-            .card-featured .card-body {
-                grid-template-columns: 1fr;
-            }
+            .card-featured .card-body { grid-template-columns: 1fr; }
             .card-featured .card-header,
             .card-featured .card-desc,
             .card-featured .card-link { grid-column: auto; }
@@ -240,11 +234,7 @@
             align-items: flex-start;
         }
 
-        .card-when .when-icon {
-            font-size: 0.85rem;
-            margin-top: 0.1rem;
-            flex-shrink: 0;
-        }
+        .when-icon { font-size: 0.85rem; margin-top: 0.1rem; flex-shrink: 0; }
 
         .card-when-text h3 {
             font-size: 0.68rem;
@@ -255,10 +245,7 @@
             margin-bottom: 0.2rem;
         }
 
-        .card-when-text p {
-            font-size: 0.83rem;
-            color: #64748b;
-        }
+        .card-when-text p { font-size: 0.83rem; color: #64748b; }
 
         .card-link {
             display: inline-block;
@@ -275,27 +262,27 @@
         .card-link:hover { opacity: 0.88; }
 
         /* Color themes */
-        .teal   .card-top { background: #14B8A6; }
+        .teal   .card-top  { background: #14B8A6; }
         .teal   .card-icon { background: #F0FDFA; color: #14B8A6; }
         .teal   .card-tag  { background: #F0FDFA; color: #0D9488; }
         .teal   .card-link { background: #14B8A6; color: white; }
 
-        .blue   .card-top { background: #3B82F6; }
+        .blue   .card-top  { background: #3B82F6; }
         .blue   .card-icon { background: #EFF6FF; color: #3B82F6; }
         .blue   .card-tag  { background: #EFF6FF; color: #2563EB; }
         .blue   .card-link { background: #3B82F6; color: white; }
 
-        .green  .card-top { background: #10B981; }
+        .green  .card-top  { background: #10B981; }
         .green  .card-icon { background: #ECFDF5; color: #10B981; }
         .green  .card-tag  { background: #ECFDF5; color: #059669; }
         .green  .card-link { background: #10B981; color: white; }
 
-        .purple .card-top { background: #8B5CF6; }
+        .purple .card-top  { background: #8B5CF6; }
         .purple .card-icon { background: #F5F3FF; color: #8B5CF6; }
         .purple .card-tag  { background: #F5F3FF; color: #7C3AED; }
         .purple .card-link { background: #8B5CF6; color: white; }
 
-        .orange .card-top { background: #F59E0B; }
+        .orange .card-top  { background: #F59E0B; }
         .orange .card-icon { background: #FFFBEB; color: #D97706; }
         .orange .card-tag  { background: #FFFBEB; color: #D97706; }
         .orange .card-link { background: #F59E0B; color: white; }
@@ -380,7 +367,7 @@
     <h2 class="section-title" id="documents">Study Documents</h2>
     <div class="cards">
 
-        <!-- Card 0 (featured): MC Strategies v2 -->
+        <!-- MC Strategies v2 — featured -->
         <div class="card teal card-featured">
             <div class="card-top"></div>
             <div class="card-body">
@@ -391,7 +378,7 @@
                         <h2>MC Strategies v2 — Multiple Choice Test-Taking Guide</h2>
                     </div>
                 </div>
-                <p class="card-desc">A systematic, logic-based strategy guide for the Alberta ELA multiple-choice section. Built from actual Alberta KEY materials, with confidence ratings on every rule. Covers the two question types (ordinary vs. best-answer), official reading strategies, targeted approaches for each question type, and a quick reference card for exam use.</p>
+                <p class="card-desc">A systematic, logic-based strategy guide for the Alberta ELA multiple-choice section. Built from actual Alberta KEY materials, with confidence ratings on every rule. Covers the two question types, official reading strategies, targeted approaches for each question type, and a quick reference card for exam use.</p>
                 <div class="card-topics">
                     <h3>Covers</h3>
                     <ul>
@@ -414,11 +401,11 @@
                         <p>Starting any multiple-choice practice session, or when you need a decision process for a specific question type. The quick reference card (Section 6) is designed for use during the exam itself.</p>
                     </div>
                 </div>
-                <a class="card-link" href="https://github.com/scudfei/StudyELA/blob/main/mc_strategies_v2.md" target="_blank">Open Document →</a>
+                <a class="card-link" href="view.html?doc=mc_strategies_v2">Read Document →</a>
             </div>
         </div>
 
-        <!-- Card 1: Literary Terms -->
+        <!-- Literary Terms -->
         <div class="card blue">
             <div class="card-top"></div>
             <div class="card-body">
@@ -447,11 +434,11 @@
                         <p>You need to distinguish between closely related terms, or prepare for literary device identification questions.</p>
                     </div>
                 </div>
-                <a class="card-link" href="https://github.com/scudfei/StudyELA/blob/main/Literary_Terms_Teaching_Guide.md" target="_blank">Open Document →</a>
+                <a class="card-link" href="view.html?doc=Literary_Terms_Teaching_Guide">Read Document →</a>
             </div>
         </div>
 
-        <!-- Card 2: Training & Exam -->
+        <!-- Training & Exam -->
         <div class="card green">
             <div class="card-top"></div>
             <div class="card-body">
@@ -480,11 +467,11 @@
                         <p>Setting up a daily practice routine, or when you need fast, reliable decision rules for exam day.</p>
                     </div>
                 </div>
-                <a class="card-link" href="https://github.com/scudfei/StudyELA/blob/main/ELA_Training_and_Exam_Guide.md" target="_blank">Open Document →</a>
+                <a class="card-link" href="view.html?doc=ELA_Training_and_Exam_Guide">Read Document →</a>
             </div>
         </div>
 
-        <!-- Card 3: Terminology Reference -->
+        <!-- Terminology Reference -->
         <div class="card purple">
             <div class="card-top"></div>
             <div class="card-body">
@@ -513,11 +500,11 @@
                         <p>You encounter an unfamiliar term in practice materials, or need a complete list to review before a test.</p>
                     </div>
                 </div>
-                <a class="card-link" href="https://github.com/scudfei/StudyELA/blob/main/Alberta_ELA_Terminology_Study_Guide.md" target="_blank">Open Document →</a>
+                <a class="card-link" href="view.html?doc=Alberta_ELA_Terminology_Study_Guide">Read Document →</a>
             </div>
         </div>
 
-        <!-- Card 4: Writing Framework -->
+        <!-- Writing Framework -->
         <div class="card orange">
             <div class="card-top"></div>
             <div class="card-body">
@@ -546,7 +533,7 @@
                         <p>Preparing for written response assignments, or when your writing feels organised but lacks a clear central argument.</p>
                     </div>
                 </div>
-                <a class="card-link" href="https://github.com/scudfei/StudyELA/blob/main/ELA_Writing_Logic_Framework.md" target="_blank">Open Document →</a>
+                <a class="card-link" href="view.html?doc=ELA_Writing_Logic_Framework">Read Document →</a>
             </div>
         </div>
 
@@ -565,43 +552,43 @@
             <tbody>
                 <tr>
                     <td>Understand how Alberta MC questions work and which rules apply</td>
-                    <td><a href="https://github.com/scudfei/StudyELA/blob/main/mc_strategies_v2.md" target="_blank">MC Strategies v2</a> → Section 1</td>
+                    <td><a href="view.html?doc=mc_strategies_v2">MC Strategies v2</a> → Section 1</td>
                 </tr>
                 <tr>
                     <td>Get a strategy for vocabulary-in-context questions</td>
-                    <td><a href="https://github.com/scudfei/StudyELA/blob/main/mc_strategies_v2.md" target="_blank">MC Strategies v2</a> → Section 3.1</td>
+                    <td><a href="view.html?doc=mc_strategies_v2">MC Strategies v2</a> → Section 3.1</td>
                 </tr>
                 <tr>
                     <td>Get a strategy for tone / mood / atmosphere questions</td>
-                    <td><a href="https://github.com/scudfei/StudyELA/blob/main/mc_strategies_v2.md" target="_blank">MC Strategies v2</a> → Section 3.2</td>
+                    <td><a href="view.html?doc=mc_strategies_v2">MC Strategies v2</a> → Section 3.2</td>
                 </tr>
                 <tr>
                     <td>Decide between two equally plausible answers</td>
-                    <td><a href="https://github.com/scudfei/StudyELA/blob/main/mc_strategies_v2.md" target="_blank">MC Strategies v2</a> → Section 5</td>
+                    <td><a href="view.html?doc=mc_strategies_v2">MC Strategies v2</a> → Section 5</td>
                 </tr>
                 <tr>
                     <td>Understand why you keep getting questions wrong and what habit to build</td>
-                    <td><a href="https://github.com/scudfei/StudyELA/blob/main/ELA_Training_and_Exam_Guide.md" target="_blank">ELA Training &amp; Exam Guide</a></td>
+                    <td><a href="view.html?doc=ELA_Training_and_Exam_Guide">ELA Training &amp; Exam Guide</a></td>
                 </tr>
                 <tr>
                     <td>Distinguish between verbal, situational, and dramatic irony</td>
-                    <td><a href="https://github.com/scudfei/StudyELA/blob/main/Literary_Terms_Teaching_Guide.md" target="_blank">Literary Terms Teaching Guide</a> → Part 1</td>
+                    <td><a href="view.html?doc=Literary_Terms_Teaching_Guide">Literary Terms Teaching Guide</a> → Part 1</td>
                 </tr>
                 <tr>
                     <td>Identify which narrative perspective a passage uses</td>
-                    <td><a href="https://github.com/scudfei/StudyELA/blob/main/Literary_Terms_Teaching_Guide.md" target="_blank">Literary Terms Teaching Guide</a> → Part 2</td>
+                    <td><a href="view.html?doc=Literary_Terms_Teaching_Guide">Literary Terms Teaching Guide</a> → Part 2</td>
                 </tr>
                 <tr>
                     <td>Look up any Alberta ELA term you don't recognise</td>
-                    <td><a href="https://github.com/scudfei/StudyELA/blob/main/Alberta_ELA_Terminology_Study_Guide.md" target="_blank">Alberta ELA Terminology Study Guide</a></td>
+                    <td><a href="view.html?doc=Alberta_ELA_Terminology_Study_Guide">Alberta ELA Terminology Study Guide</a></td>
                 </tr>
                 <tr>
                     <td>Structure a PRT response or formal essay from scratch</td>
-                    <td><a href="https://github.com/scudfei/StudyELA/blob/main/ELA_Writing_Logic_Framework.md" target="_blank">ELA Writing Logic Framework</a></td>
+                    <td><a href="view.html?doc=ELA_Writing_Logic_Framework">ELA Writing Logic Framework</a></td>
                 </tr>
                 <tr>
                     <td>Use an exam-day quick reference card</td>
-                    <td><a href="https://github.com/scudfei/StudyELA/blob/main/mc_strategies_v2.md" target="_blank">MC Strategies v2</a> → Section 6</td>
+                    <td><a href="view.html?doc=mc_strategies_v2">MC Strategies v2</a> → Section 6</td>
                 </tr>
             </tbody>
         </table>
