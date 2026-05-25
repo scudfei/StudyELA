@@ -1,0 +1,15 @@
+title: Alberta ELA Study Resources
+description: Study guides for Alberta Grade 10–12 English Language Arts
+url: "https://scudfei.github.io"
+baseurl: "/StudyELA"
+
+markdown: kramdown
+kramdown:
+  input: GFM
+  hard_wrap: false
+
+exclude:
+  - docs/
+  - README.md
+  - Gemfile
+  - Gemfile.lock
