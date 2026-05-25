@@ -1,3 +1,9 @@
+---
+layout: default
+title: "MC Strategies v2 — Multiple Choice Test-Taking Guide"
+permalink: /mc_strategies_v2
+---
+
 # Alberta ELA 选择题应试策略
 ## 面向理科逻辑学生的系统性方法
 
