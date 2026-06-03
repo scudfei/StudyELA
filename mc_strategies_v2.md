@@ -1,13 +1,9 @@
----
-layout: default
-title: "MC Strategies v2 — Multiple Choice Test-Taking Guide"
-permalink: /mc_strategies_v2
----
-
 # Alberta ELA 选择题应试策略
 ## 面向理科逻辑学生的系统性方法
 
 > v2 更新目的：基于 JAN2004 R2 审查中暴露的问题，补充通用的证据权重排序规则。新增规则避免记忆具体题目答案，只处理可迁移的判断场景：主导题、语气氛围题、背景知识推断、文学映射题、"most strongly" 因果比较题。
+>
+> v2.1 补充：加入叙事情节结构题策略，用于处理 climax / turning point / rising action / resolution / aftermath 等事件功能判断，防止把"触发事件"或"主题性结尾"误当成高潮。
 
 ---
 
@@ -364,6 +360,133 @@ C. persuade the reader  D. describe a situation
 
 这条的目标不是永远选抽象选项，而是选**能解释更多文本行为的因果源头**。
 
+### 3.6 叙事情节结构题：先排序，再判功能 △
+
+这类题考的不是某个事件"重不重要"，而是这个事件在叙事结构中的功能。常见题干包括：
+
+```
+climax / turning point / rising action / conflict / complication
+resolution / denouement / aftermath / ending functions to...
+sets the conflict in motion / increases suspense / foreshadows
+```
+
+注意：`foreshadowing / conflict / ending function` 只能部分使用本策略。它们还需要结合对应题型判断：
+- foreshadowing：先找后文实际发生的事件，再回头找前文暗示
+- conflict：先确定冲突双方或冲突类型
+- ending function：可能问 theme / tone / irony / characterization，不一定问 plot phase
+
+**可信度说明：△ + ◆**
+
+- `climax / rising action / resolution` 等术语定义属于通用文学和考试原则，并可由 Class Focus 的 plot elements 内容支持；但不是 KEY Strategies 原文直接策略。△
+- "先排序，再判功能"是作者整理的考试操作法；具体执行仍依赖 KEY 原文已有原则：理解题干、close reading、回到文本精读相关段落。◆
+
+**核心区分：**
+
+| 阶段 | 判断问题 | 常见位置/功能 |
+|---|---|---|
+| Trigger / inciting incident | 是什么把问题启动了？ | 冲突开始或被点燃 |
+| Rising action / complication | 风险是否继续上升？ | 问题扩大、压力增加 |
+| Crisis | 是否出现重大危险或关键选择？ | 高风险事件，但未必是最高点 |
+| Climax | 中央冲突是否达到最高张力、决定性变化，或结果开始无法回避的节点？ | 情节峰值、最大压力、决定性转折 |
+| Falling action | 高潮后还有什么直接后果？ | 张力开始下降 |
+| Resolution / denouement | 问题怎样收束？ | 结局、人物回到某种新状态 |
+| Aftermath / thematic ending | 结尾展示什么反应或主题？ | 强化主题，但通常发生在 climax 之后 |
+
+**操作步骤：**
+
+```
+第一步：圈出题干问的具体结构词
+        是 climax？turning point？rising action？resolution？还是 ending function？
+
+第二步：把四个选项按故事实际发生顺序排列
+        不先判断哪个"看起来最重要"，先判断它们发生的先后。
+        若文本有 flashback / frame narrative / non-linear order，
+        按故事实际发生顺序，不按页面出现顺序。
+
+第三步：确定 central conflict
+        这个故事/诗的主要压力、危险、选择或问题是什么？
+
+第四步：问每个事件之后张力是否还继续上升
+        如果之后还有更高风险、更大损失、更关键选择或更决定性的结果，
+        那么当前事件通常不是 climax，而是 trigger / rising action / crisis。
+
+第五步：区分 climax 和主题性结尾
+        结尾若只是展示他人反应、社会冷漠、人物回到日常，
+        它可能强化 theme，但不一定是 climax。
+
+第六步：选择最符合题干结构词的事件功能
+```
+
+**高频误判：**
+
+```
+误判 1：把 first cause 当 climax
+        触发事故/冲突的事件通常是 trigger，不是最高张力点。
+
+误判 2：把最显眼、最剧烈的事故当 climax
+        事故可能只是 crisis；若之后风险、选择或损失继续升级，
+        climax 可能在后面。
+
+误判 3：把主题最明显的结尾当 climax
+        结尾反应可能揭示主题，但如果发生在决定性结果之后，
+        通常是 aftermath / denouement。
+
+误判 4：只看单个事件，不看事件链
+        情节结构题必须看 sequence：before → during → after。
+```
+
+**学生实操版本：**
+
+```
+看到 climax 题，不问"哪个事件最重要？"
+改问：
+□ 哪个事件先启动问题？
+□ 哪个事件让风险继续变大？
+□ 哪个事件之后已经没有更高的情节风险？
+□ 哪个事件是最高张力、决定性变化，或结果开始无法回避的节点？
+□ 哪个事件只是高潮之后的反应？
+□ 不自动选死亡、失败或最后事件；先问它是否真的是 central conflict 的最高张力。
+```
+
+**例型，不记答案，只记结构：**
+
+```
+若选项依次是：
+A 触发事件
+B 重大危机
+C 关键结果/决定性变化/最大张力点
+D 其他人事后反应
+
+题干问 climax：
+→ 通常优先检查 C 是否真的是 central conflict 的最高张力点。
+  如果 C 只是结局说明或事后反应，不选。
+
+题干问 theme / ending effect：
+→ D 可能更重要，因为它展示事后反应或主题。
+```
+
+**限制条件：**
+
+```
+turning point 不一定永远等于 climax。
+有些文本的 turning point 是人物作出决定的时刻；
+有些文本的 climax 是决定带来的最终冲突峰值。
+crisis 和 climax 在有些文本中可能重合；
+判断依据不是标签，而是该事件之后 central conflict 是否仍继续升级。
+所以必须按题干具体词判断，不要把所有结构题都自动选"死亡/结局"。
+```
+
+**可审计输出格式：**
+
+```
+题干结构词：
+选项故事顺序：
+central conflict：
+每个选项之后张力是否继续上升：
+最终选择：
+排除理由：
+```
+
 ---
 
 ## 四、干扰项分析（明确标注为作者归纳）
@@ -486,6 +609,7 @@ Q6：哪个选项把局部情绪误当成整体氛围？
 □ 对评估题：读完全部四项再选 ◆
 □ 对 most strongly / influence / impact：比较根因覆盖范围 vs 局部表现
 □ 对 atmosphere：检查 tension / resolution / polarity 三轴
+□ 对 climax / plot structure：先排故事实际顺序，再判断 trigger / rising action / climax / aftermath
 
 【无法确定时】
 □ 回到文本，找相关段落精读 ◆
@@ -506,6 +630,7 @@ Q6：哪个选项把局部情绪误当成整体氛围？
 | 推断题 | 必须能从文本直接引出；无法找到原文支撑的结论要怀疑 |
 | 背景知识题 | 先找文本锚点；背景知识只能解释锚点，不能创造证据 |
 | 文学映射题 | 至少两个锚点：共享词汇/动作/冲突/叙事邻近 |
+| 情节结构题 | 先排故事实际顺序；climax = 中央冲突最高张力、决定性变化，或结果开始无法回避的节点；结尾反应可能只是 aftermath |
 | 最佳答案题 | 所有选项都"对"，找文本支撑最强的那个 |
 | most strongly 影响题 | 根因若能解释多个行为，通常强于单个局部表现 |
 
@@ -517,10 +642,11 @@ Q6：哪个选项把局部情绪误当成整体氛围？
 
 1. **五种干扰项类型是否完整？** — 作者归纳，可能遗漏重要类型
 2. **"三轴法"在语气题中是否稳定有效？** — 这是基于实际错题审查后的作者延伸，仍需更多试题验证
-3. **"转折词后是作者真意"** — 此规则已从本文档删除，因为原文无此表述
-4. **理科学生的具体失分模式** — 原文仅提到反讽/字面意思是失分重灾区，其他失分模式未经原材料确认
+3. **叙事情节结构策略是否覆盖所有 climax / turning point 题？** — 这是通用文学术语策略，不来自 KEY 原文专项说明；需要更多题目验证边界
+4. **"转折词后是作者真意"** — 此规则已从本文档删除，因为原文无此表述
+5. **理科学生的具体失分模式** — 原文仅提到反讽/字面意思是失分重灾区，其他失分模式未经原材料确认
 
 ---
 
-*文档版本：2026-05-23 v2（加入 R2 审查后的通用改进规则，避免题目专用拟合）*  
+*文档版本：2026-06-02 v2.1（在 v2 基础上补充叙事情节结构题策略，避免把触发事件/主题性结尾误判为 climax）*  
 *数据来源：Alberta KEY 原始材料 10-1 / 20-1 / 30-2 / 30-1 的 KEY Strategies 章节及正文内容*
