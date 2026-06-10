@@ -4,6 +4,8 @@
 > v2 更新目的：基于 JAN2004 R2 审查中暴露的问题，补充通用的证据权重排序规则。新增规则避免记忆具体题目答案，只处理可迁移的判断场景：主导题、语气氛围题、背景知识推断、文学映射题、"most strongly" 因果比较题。
 >
 > v2.1 补充：加入叙事情节结构题策略，用于处理 climax / turning point / rising action / resolution / aftermath 等事件功能判断，防止把"触发事件"或"主题性结尾"误当成高潮。
+>
+> v3 补充：加入修辞手法题的"范围-对象-必要特征-效果桥接-干扰项排序"公式，用于处理 irony / hyperbole / paradox / satire 等容易重叠的术语题。此新增内容不是 KEY 原文直接给出的完整规则，而是把通用文学术语知识转化为可执行的证据检查流程。
 
 ---
 
@@ -269,6 +271,143 @@ C. persuade the reader  D. describe a situation
 ```
 
 （此操作规则是对原文警示的推导，原文仅指出失分模式，未提供具体排除步骤）
+
+### 3.4a 修辞手法题：四轴证据公式 △
+
+修辞手法题最容易错在"文中确实有这个手法，但它不是题干问的那个答案"。例如同一段文字可能同时有反讽、夸张和讽刺目的。v3 的核心不是问"哪个手法存在"，而是问：
+
+```
+正确答案强度 =
+题干范围匹配
++ 题干对象匹配
++ 术语必要特征匹配
++ 题干效果桥接强度
+- 强干扰项解释力
+```
+
+#### 第一步：范围轴 Scope Gate △
+
+先圈出题干限定的范围。范围决定选项层级。
+
+| 题干范围词 | 优先检查 | 常见误选 |
+|---|---|---|
+| phrase / word / image / sentence | 局部语言手法 | 把全文主题或作者目的误选成局部 technique |
+| anecdote / example / comparison | 该例子内部最直接的手法和效果 | 只选全文存在的 broad device |
+| paragraph / stanza / scene | 局部功能：推进、对比、转折、强调 | 只回答一个句子细节 |
+| passage / essay / poem / overall | 全文主导目的或组织手法 | 只抓一个局部亮点 |
+| statement / view / assumption / claim | 观点本身的逻辑形态：paradox、irony、fallacy 等 | 把观点涉及的故事当成 allegory |
+
+学生实操版本：
+
+```
+题干问哪里，就只先在那个范围里找证据。
+如果一个选项只在全文层面成立，但题干问某个局部，它要降权。
+如果一个选项只解释一个词，但题干问 overall effect，它也要降权。
+```
+
+#### 第二步：对象轴 Object Gate △
+
+同一段文字可以同时有 technique、tone、purpose、theme。先判断题干问哪一种对象。
+
+| 题干问法 | 需要回答的对象 | 选项应是什么 |
+|---|---|---|
+| What technique/device is used...? | 写法手段 | irony, hyperbole, metaphor, allusion 等 |
+| What tone/attitude is conveyed...? | 作者/说话者态度 | mocking, critical, sympathetic 等 |
+| What is the purpose/effect...? | 为什么这样写 / 造成什么效果 | criticize, emphasize, contrast, reveal 等 |
+| What idea/theme is suggested...? | 文本想表达的观点 | 关于人、社会、权力、关系的抽象判断 |
+| What image is created...? | 读者看到/感到的人物或事物形象 | evil, vulnerable, absurd, dignified 等 |
+
+若题干问 `technique`，不要直接选"批判社会"这类目的；若题干问 `purpose`，不要只停在"用了比喻"这类手段。
+
+#### 第三步：术语必要特征卡 △
+
+以下是考场用的最小判定条件。它们不是完整文学理论定义，而是选择题排除干扰项时的必要特征。
+
+| 术语 | 必要特征 | 反向排除 |
+|---|---|---|
+| **Hyperbole** | 明显夸大到超出现实可能或正常程度 | 只是强烈批评但没有放大，不够 |
+| **Irony** | 表面意思、表面期待或表面结果，与真实意思/实际结果相反 | 只有负面态度，不一定是 irony |
+| **Verbal irony** | 说出来的字面意思与真正意思相反 | 没有"反说"，可能只是批评或夸张 |
+| **Situational irony** | 事情结果与合理期待相反 | 不是某句话"说反了" |
+| **Dramatic irony** | 读者/观众知道，角色不知道 | 不是普通误会；必须有读者-角色信息差 |
+| **Sarcasm** | 带攻击性或嘲弄性的 verbal irony | 没有刺伤对象时，只能算 general irony |
+| **Satire** | 用幽默、反讽、夸张或荒诞批判社会、制度或普遍人性 | 只攻击一个局部人物行为，可能太窄 |
+| **Paradox** | 看似矛盾，但能表达深层真理 | 真正逻辑错误是 inconsistency，不是 paradox |
+| **Inconsistency** | 前后说法或逻辑无法同时成立，且没有深层真理 | 如果矛盾是有意揭示真理，优先 paradox |
+| **Allegory** | 整个故事/人物/事件系统性映射另一套抽象意义 | 单个典故或单个象征不够 |
+| **Allusion** | 指向文本外的宗教、历史、神话、文学、文化知识 | 文本内物象代表抽象概念是 symbol |
+| **Symbol** | 文本内具体物反复承载抽象意义 | 只出现一次且无暗示，证据弱 |
+| **Motif** | 反复出现的意象、词语、情境或结构，累积主题意义 | 单次出现通常不够 |
+| **Synecdoche** | 用部分代整体，或用整体代部分 | 只是相关联替代时，可能是 metonymy |
+| **Metonymy** | 用与对象密切相关的事物代指对象 | 若是部分/整体关系，优先检查 synecdoche |
+| **Analogy** | 用 A 与 B 的结构相似来解释观点 | 只是说 A 是 B，可能是 metaphor |
+| **Juxtaposition** | 把两个不同事物放在一起，制造对照或意义张力 | 仅有差异但没有被并排呈现，证据弱 |
+| **Contrast** | 强调两个对象的差异 | 不一定要求相邻摆放 |
+| **Metaphor** | 直接把 A 说成 B | 有 like / as 的显性比较通常是 simile |
+| **Simile** | 用 like / as 等标记进行比较 | 有 like / as 但不是比较时不能机械选 |
+| **Personification** | 给非人事物人类动作、情感、意志或语言 | 普通动作动词不一定是拟人 |
+| **Understatement** | 故意把严重/强烈的事说得很轻 | 与 hyperbole 相反，但也可能制造 irony |
+| **Oxymoron** | 两个相反词构成短语 | 整句话的矛盾通常更像 paradox |
+| **Ambiguity** | 文本有意保留多重可能意义 | 普通表达不清不一定是文学 ambiguity |
+| **Incongruity** | 风格、情境、行为或期待之间不协调，常制造讽刺、荒诞或批判效果 | 普通差异不一定是不协调 |
+| **Rationalization** | 人物为不合理行为、信念或选择找貌似合理的借口 | 普通解释原因不等于 rationalization |
+| **Pathos** | 激起读者情感反应的诉求或效果，常由重复、意象、排比等制造 | 更常是效果，不一定是具体 device |
+| **Rhetorical question** | 问句不是真的求答案，而是强调观点或施压 | 真正询问信息则不是 |
+| **Repetition** | 重复词、句式、意象以强调或形成节奏 | 重复必须有可解释效果 |
+| **Anaphora** | 连续句子或分句开头重复同一词语/短语 | 不是所有 repetition 都是 anaphora |
+| **Parallelism** | 相似语法结构并列，制造节奏、平衡或强化 | 只是内容重复，不一定是 parallelism |
+
+三份校验资料（Ultimate Guide / Knowledge Tree / Exam Competency Map）明确支持或重点列出的方向包括：metaphor、simile、personification、allegory、synecdoche、metonymy、symbolism、motif、allusion、oxymoron、paradox、hyperbole、understatement、verbal/situational/dramatic irony、sarcasm、satire、ambiguity、incongruity、rationalization、repetition、anaphora、parallelism、rhetorical question、pathos。
+
+`Analogy`、`Juxtaposition`、`Inconsistency` 在上述三份校验资料中不是显性核心条目。若选项中出现，可以按通用术语逻辑检查；若选项中没有出现，不应把它们当作优先考点。
+
+#### 第四步：效果桥接测试 △
+
+把题干和选项连成一句话，比较哪个选项解释题干效果时跳步最少。
+
+```
+[题干效果] is created by [选项] because [文本可见特征].
+```
+
+或：
+
+```
+作者使用这个局部手法，是为了/从而 [题干问的效果]。
+```
+
+判断标准：
+
+```
+□ 能否指出文本里的可见特征？
+□ 这个特征是否满足术语必要条件？
+□ 这个术语是否直接解释题干关键词？
+□ 是否需要绕到全文目的、背景知识或个人感觉才能说通？
+```
+
+若两个选项都说得通，优先选择"解释路径更短、题干关键词覆盖更直接"的选项。
+
+#### 第五步：强干扰项排序 △
+
+修辞题常见强干扰不是完全错误，而是"层级不精确"。
+
+| 强干扰类型 | 表现 | 处理 |
+|---|---|---|
+| 手法存在但不是题干效果 | 文中确实有 irony，但题干问某种人物形象；另一个手法可能更直接制造该形象 | 降权，不立即删除 |
+| 全文目的冒充局部手法 | 全文是 satire，但局部问某个 phrase 的 technique | 局部题优先局部手法 |
+| 术语大类压过小类 | satire 可能包含 irony/hyperbole，但题干问具体 technique | 选更具体且可见的手法 |
+| 效果正确但手法不准 | 选项说出了作者在批评，但不是题干问的 device | 按对象轴排除 |
+| 术语必要条件缺失 | 想选 allegory，但没有整套系统映射 | 排除或低置信 |
+
+#### 置信度规则 △
+
+```
+高置信：一个选项满足范围、对象、必要特征、效果桥接；其他选项缺少必要条件。
+中高置信：两个选项都在文中存在，但其中一个更直接解释题干关键词。
+中置信：需要依赖较多术语知识或文本外知识，且强干扰也有证据。
+低置信：策略只能排除明显错误，剩余选项必须靠未掌握的术语定义区分。
+```
+
+此公式不能替代术语知识。它的作用是把术语知识转化为证据检查顺序，避免只凭"这个词我见过"或"这段感觉像"来选。
 
 ### 3.4b 文学映射题：至少两个锚点 ◇
 
@@ -612,6 +751,7 @@ Q6：哪个选项把局部情绪误当成整体氛围？
 □ 对 most strongly / influence / impact：比较根因覆盖范围 vs 局部表现
 □ 对 atmosphere：检查 tension / resolution / polarity 三轴
 □ 对 climax / plot structure：先排故事实际顺序，再判断 trigger / rising action / climax / aftermath
+□ 对修辞手法题：先锁范围和对象，再检查术语必要特征，最后做效果桥接
 
 【无法确定时】
 □ 回到文本，找相关段落精读 ◆
@@ -629,6 +769,13 @@ Q6：哪个选项把局部情绪误当成整体氛围？
 | 结尾氛围题 | tension / resolution / polarity 三轴；局部 relieved 不等于 optimism |
 | 目的题 | 四类：inform / persuade / entertain / describe |
 | 反讽题 | 表面意思 ≠ 真实意思；引号 / 夸张是信号 |
+| 修辞手法题 | 范围 + 对象 + 必要特征 + 效果桥接；不是问"文中有没有"，而是问"哪个最直接解释题干效果" |
+| 夸张 vs 反讽 | hyperbole 看是否极端放大；irony 看表面与真实是否相反；若两者都存在，看题干问形象、语气还是目的 |
+| 悖论 vs 不一致 | paradox = 看似矛盾但揭示真理；inconsistency = 逻辑上不能同时成立且没有深层意义 |
+| satire vs irony/hyperbole | satire 常是全文批判目的；irony/hyperbole 常是实现 satire 的局部手法 |
+| symbol vs motif | symbol 是具体物承载抽象意义；motif 是反复出现的意象/词语/情境累积意义 |
+| ambiguity / incongruity / rationalization | ambiguity 看多重意义；incongruity 看不协调；rationalization 看人物为不合理行为找借口 |
+| repetition / anaphora / parallelism | repetition 是重复；anaphora 是句首重复；parallelism 是相似语法结构并列 |
 | 推断题 | 必须能从文本直接引出；无法找到原文支撑的结论要怀疑 |
 | 背景知识题 | 先找文本锚点；背景知识只能解释锚点，不能创造证据 |
 | 文学映射题 | 至少两个锚点：共享词汇/动作/冲突/叙事邻近 |
@@ -636,19 +783,5 @@ Q6：哪个选项把局部情绪误当成整体氛围？
 | 最佳答案题 | 所有选项都"对"，找文本支撑最强的那个 |
 | most strongly 影响题 | 根因若能解释多个行为，通常强于单个局部表现 |
 
----
-
-## 七、本文档未解决的问题（诚实说明）
-
-以下问题本文档没有可靠答案，需要更多实际题目数据才能验证：
-
-1. **五种干扰项类型是否完整？** — 作者归纳，可能遗漏重要类型
-2. **"三轴法"在语气题中是否稳定有效？** — 这是基于实际错题审查后的作者延伸，仍需更多试题验证
-3. **叙事情节结构策略是否覆盖所有 climax / turning point 题？** — 这是通用文学术语策略，不来自 KEY 原文专项说明；需要更多题目验证边界
-4. **"转折词后是作者真意"** — 此规则已从本文档删除，因为原文无此表述
-5. **理科学生的具体失分模式** — 原文仅提到反讽/字面意思是失分重灾区，其他失分模式未经原材料确认
-
----
-
-*文档版本：2026-06-02 v2.1（在 v2 基础上补充叙事情节结构题策略，避免把触发事件/主题性结尾误判为 climax）*  
+*文档版本：2026-06-10 v3.0（在 v2.1 基础上补充修辞手法题的四轴证据公式，并根据 Ultimate Guide / Knowledge Tree / Exam Competency Map 补齐术语覆盖）*  
 *数据来源：Alberta KEY 原始材料 10-1 / 20-1 / 30-2 / 30-1 的 KEY Strategies 章节及正文内容*
