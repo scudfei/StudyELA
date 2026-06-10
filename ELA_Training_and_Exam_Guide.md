@@ -1,216 +1,280 @@
----
-layout: default
-title: "ELA Training and Exam Guide"
-permalink: /ELA_Training_and_Exam_Guide
----
+# ELA 阅读理解——训练与考场指南
 
-# ELA Reading Comprehension — Training & Exam Guide
-
-*Two-part structure: daily training builds capacity; exam tactics execute it under pressure.*
-*Part 1 habits are slow on purpose — speed comes after repetition, not during it.*
+*两部分结构：日常训练建立能力基础；考场技巧在压力下执行它。*
+*第一部分的习惯刻意放慢——速度是重复之后的产物，不是练习时的目标。*
+*本版已对照 `选择题做题策略v3.md`、`Alberta_ELA_Ultimate_Success_Guide.md`、`Alberta_ELA_Student_Knowledge_Tree.md`、`Alberta_ELA_Exam_Competency_Map.md` 更新修辞手法训练。*
 
 ---
 
-## Part 1: Daily Training
+## 第一部分：日常训练习惯
 
-These habits are too slow for real exam conditions. That is fine. The goal is to repeat them until they become automatic — so that during an exam, your brain runs them without conscious effort.
+这些习惯在真实考场上太慢，用不上。这没关系。目标是反复练习直到它们变成自动反应——让你在考试时不需要刻意想起，大脑自然就执行了。
 
-Do not try to apply all five at once. Start with Habit 1. Add the next only when the previous one is no longer something you have to think about.
-
----
-
-### Habit 1 — Quote Before You Commit
-
-**What it builds:** The single most important fix. Breaks the habit of selecting answers by "feel."
-
-**How to practice:**
-For every practice question, before selecting your answer, complete this sentence out loud or in writing:
-> "My answer is [X] because the passage says: [exact phrase, with approximate line]."
-
-If you cannot complete the sentence with an actual quote, do not select that option yet. Return to the passage and find the support, or reconsider your answer.
-
-Do this even when you are confident. The habit only builds if it is applied consistently, not only on hard questions.
-
-**Mastered when:** You automatically think in terms of "where does this live in the text?" before selecting, without prompting yourself to do so.
+**不要同时练所有习惯。** 从习惯 1 开始。等上一个习惯不再需要提醒自己，再加入下一个。
 
 ---
 
-### Habit 2 — Predict Before You Look
+### 习惯 1 — 引用再作答
 
-**What it builds:** Independence from answer options. Prevents being led toward plausible-sounding wrong answers.
+**建立的能力：** 最重要的一个习惯。打破"凭感觉选答案"的模式。
 
-**How to practice:**
-Cover the four answer choices. Read the question. In one short phrase, say what the answer should be about — not the full answer, just the direction.
-Then uncover the options.
+**如何练习：**
 
-This is an untimed practice habit only. Do not try it during timed practice until it feels natural.
+每道练习题，在选答案之前，大声说出或写出这句话：
 
-**Mastered when:** Your pre-prediction matches the correct answer's category more than half the time.
+> "我选 X，因为文章里说：【原文某句话，大概在哪一行】。"
 
----
+如果你说不出具体引用，就不要选那个选项。回到文章找支撑，或者重新考虑答案。
 
-### Habit 3 — Name Your Mistake
+即使你很有把握，也要执行这一步。习惯只有在每题都用、而不是只对难题用时，才能真正建立起来。
 
-**What it builds:** Pattern recognition of your own specific error types. Turns error review from passive ("oh, the answer was B") into active learning.
-
-**How to practice:**
-When you get a question wrong, before moving on:
-1. Say what you thought the answer was and why.
-2. Find the exact text that makes the correct answer right.
-3. Give your mistake a one-word label from this list:
-
-| Label | Meaning |
-|-------|---------|
-| **mood-bias** | Chose an answer that fit the emotional atmosphere, not the sentence logic |
-| **local-lock** | Focused on one vivid nearby detail and ignored the broader sentence or context |
-| **secondary-effect** | Chose something that is true but not the main function or dominant purpose |
-| **scope-wrong** | Question asked global/local, answer was at the wrong level |
-| **word-unknown** | Did not know the word and guessed by tone instead of substitution |
-| **term-unknown** | Did not know the literary term being tested |
-
-Keep a running tally. After 20 questions, count which labels appear most — those are your current priority.
-
-**Mastered when:** You can predict your mistake type before checking the answer, and your tally shows one or two labels becoming less frequent over time.
+**达到目标的标志：** 你在选答案之前，脑子里自动问"这个答案在文章哪里"——不再需要提醒自己。
 
 ---
 
-### Habit 4 — The Bridge Test for Purpose Questions
+### 习惯 2 — 看选项前先预判
 
-**What it builds:** Precision in identifying why a technique or detail is used, rather than just what effect it creates.
+**建立的能力：** 不被选项带着走。防止因为选项"听起来合理"而被引向错误答案。
 
-**How to practice:**
-Only apply this to questions that ask "why is this included / what is the effect of / what purpose does this serve."
+**如何练习：**
 
-For each option you are considering, form this sentence:
-> "The writer included [technique or detail] **to** [option]."
+用手或手指遮住四个选项。先读题干。用一个短语说出答案的大致方向——不是完整答案，是方向。然后再看选项。
 
-Read the sentence. Ask: is the logical connection between the technique and the option direct and obvious, or is it a stretch?
+这是**不计时**的练习习惯。在它变得自然之前，不要在计时练习中强行使用。
 
-Cross out options where the bridge is forced. Keep the one where the connection is immediate.
-
-**Mastered when:** You do this automatically as an internal check, without writing it out.
+**达到目标的标志：** 你的预判超过一半时间与正确答案的方向吻合。
 
 ---
 
-### Habit 5 — Literary Terms Drilling
+### 习惯 3 — 给错误命名
 
-**What it builds:** Instant identification of device types. Pure knowledge — no strategy can substitute for knowing the definition.
+**建立的能力：** 识别自己的具体错误模式。把错题复盘从被动（"哦，答案是 B"）变成主动学习。
 
-**How to practice:**
-Build a set of flashcards (physical or digital). One card per term.
-- Front: the term name
-- Back: the definition in one sentence + one example you wrote yourself (not copied)
+**如何练习：**
 
-Minimum terms to cover first (in priority order):
-- Iamb / trochee / anapest (stress patterns) — and tetrameter / pentameter / hexameter (line lengths)
-- Simile vs. metaphor (the "like/as" rule)
-- Dramatic irony vs. situational irony
-- Tone vs. mood (who experiences it)
-- Allusion vs. symbol (inside vs. outside the text)
-- Verbal irony vs. sarcasm
-- Foreshadowing vs. setting purpose
+做错一道题后，不要直接翻下一题。先做这三件事：
 
-Drill: 5 minutes per session, three sessions per week. Identify each term from a short example, not just define it.
+1. 说出你当时选了什么、为什么选
+2. 找到让正确答案成立的具体原文句子
+3. 给这次错误贴一个标签，从下表里选：
 
-**Mastered when:** You can identify any of these from a passage excerpt in under five seconds, without needing to recall a definition.
+| 标签 | 含义 |
+|------|------|
+| **情绪锚定** | 选了符合文章整体氛围的选项，但没分析那个句子的逻辑 |
+| **局部锁定** | 被附近某个鲜明词吸引，忽略了更大的语境 |
+| **次要效果** | 选了真实的、但不是主要功能或主导目的的选项 |
+| **层级错位** | 题问全局/局部，答案在错误的层级上 |
+| **词义猜测** | 不认识那个词，靠语气猜而不是代入测试 |
+| **术语不熟** | 不认识被考查的文学术语 |
 
----
+记录累计次数。每做完 20 题，数一下哪个标签最多——那就是当前最需要专攻的问题。
 
-## Part 2: In-Exam Tactics
-
-Four rules. Each has one trigger and one action. Nothing else.
-
-These rules only work reliably once Habit 1 and Habit 2 from Part 1 are partially built — if you have not practiced text-anchoring at all, Rule 1 below will not help much because you will not know where to look.
+**达到目标的标志：** 你能在看答案之前预判自己的错误类型；某些标签的出现频率随时间明显下降。
 
 ---
 
-### Rule 1 — The Point Test
-*(Use this when you are about to select but feel uncertain)*
+### 习惯 4 — 目的类题目用桥接句测试
 
-**Trigger:** You are about to click an answer and something feels slightly off, or you are choosing between two options.
+**建立的能力：** 精准判断某个写作手法或细节"是为了什么"，而不是混淆"做了什么"和"为什么这么做"。
 
-**Action:** Before selecting, answer this question in your head:
-> "Where in the passage does this answer live? What sentence?"
+**如何练习：**
 
-- If you can immediately locate it → proceed.
-- If you cannot locate it within 15 seconds of scanning → this option probably has weak support. Switch to the other option and apply the same test.
+**只对目的类题目使用**，即题干含有"why is this included / what is the effect of / what purpose does this serve / 为何使用 / 有何效果"等问法的题目。
 
-**Time cost:** 5–15 seconds.
+对你正在考虑的每个选项，造这个句子：
 
----
+> "作者写这个【手法/细节】，**是为了**【该选项】。"
 
-### Rule 2 — The Substitute Test
-*(Use this on vocabulary and phrase-meaning questions only)*
+读一读这个句子。问自己：手法和选项之间的逻辑联系是直接明显的，还是牵强的？
 
-**Trigger:** Question asks what a word or phrase means in specific lines.
+划掉桥接句读起来逻辑勉强的选项；保留联系最直接的那个。
 
-**Action:**
-1. Go back to the original sentence in the passage.
-2. Replace the word with your chosen answer option.
-3. Ask: does the sentence still make **logical** sense — not just emotional sense?
-   - Does the grammar still work?
-   - If the sentence has a before/after structure (gave...then ruined; hoped...but failed), does your substitution fit the logical "after" state?
-
-Drop any option that makes the sentence logically incoherent, even if it fits the mood.
-
-**Time cost:** 10–20 seconds.
+**达到目标的标志：** 你不需要写出来，脑子里自动进行这个检验。
 
 ---
 
-### Rule 3 — The Coverage Check
-*(Use this on questions with "main," "most," "best," "primarily," "most strongly")*
+### 习惯 5 — 文学术语专项记忆
 
-**Trigger:** You are down to two plausible options and the question has one of those keywords.
+**建立的能力：** 见到文学手法立刻识别，不用临时回忆定义。这是纯知识，没有任何策略可以替代。
 
-**Action:** For each remaining option, ask:
-> "How much of this passage can I explain using this answer — one scene, or most of it?"
+**如何练习：**
 
-Select the option that accounts for more of the passage, not just the most vivid or recent part.
+制作一套记忆卡片（纸质或 APP 均可）。每张一个术语。
+- 正面：术语名称
+- 背面：一句话定义 + 你自己写的一个例子（不是抄来的）
 
-One common failure: the final paragraph or the last image is memorable, so you let it set your answer. If the question is about the whole passage, the final section is one data point, not the answer.
+**优先记这些（按重要性排序）：**
 
-**Time cost:** 15–20 seconds.
+- 基础比较：明喻 simile vs. 暗喻 metaphor；拟人 personification
+- 反讽系统：verbal irony / situational irony / dramatic irony；sarcasm vs. satire
+- 矛盾与张力：oxymoron vs. paradox；hyperbole vs. understatement
+- 指代与替代：allusion vs. symbol；symbol vs. motif；synecdoche vs. metonymy
+- 句法与感染力：repetition / anaphora / parallelism / rhetorical question / pathos
+- 高阶批判：ambiguity / incongruity / rationalization
+- 诗歌声音：iamb / trochee / anapest；tetrameter / pentameter / hexameter；alliteration / assonance / consonance / onomatopoeia
+- 叙事功能：foreshadowing；setting as antagonist；environmental description 的目的
 
----
+练习方式：每次 5 分钟，每周三次。从一个例句识别术语，而不仅仅是背定义。
 
-### Rule 4 — The Level Check
-*(Use this when an answer feels true but somehow wrong)*
-
-**Trigger:** One option is clearly true but you are hesitating. Something feels off.
-
-**Action:** Ask one binary question:
-> "Is this question asking about the whole passage, or about this specific section?"
-
-- Whole passage → any answer about only one scene or one detail is wrong, even if that detail is true and interesting.
-- Specific section → any answer about the whole theme is wrong, even if that theme is relevant.
-
-A true answer at the wrong level is still a wrong answer.
-
-**Time cost:** 5 seconds.
+**达到目标的标志：** 从段落例句中识别以上任何术语，用时不超过 5 秒，不需要回忆定义。
 
 ---
 
-## The Dependency Between the Two Parts
+### 习惯 6 — 修辞手法用四轴检查
 
-The exam rules are compressed versions of the training habits:
+**建立的能力：** 处理多个修辞手法同时存在的题目。目标不是判断"文中有没有这个手法"，而是判断"哪个手法最直接回答题干"。
 
-| Exam Rule | Built by Training Habit |
-|-----------|------------------------|
-| Rule 1 — Point Test | Habit 1 — Quote Before You Commit |
-| Rule 2 — Substitute Test | Habit 5 — Literary Terms + Habit 1 |
-| Rule 3 — Coverage Check | Habit 2 — Predict Before You Look |
-| Rule 4 — Level Check | Habit 3 — Name Your Mistake (scope-wrong label) |
+**如何练习：**
 
-If an exam rule is not working in practice, the corresponding training habit has not been built enough yet. Return to that habit first.
+遇到 technique / device / effect / image / statement 类题目时，按四个轴写出短答案：
+
+| 轴 | 问题 |
+|----|------|
+| 范围 | 题干问的是 word / phrase / image / anecdote / paragraph / whole passage？ |
+| 对象 | 题干问 technique、tone、purpose、theme、effect，还是 image？ |
+| 必要特征 | 选项术语的必要特征在文本里是否可见？ |
+| 效果桥接 | "这个效果由该手法造成，因为【文本特征】"是否直接通顺？ |
+
+练习时必须写出这一句：
+
+> "题干问【范围 + 对象】；我选 X，因为 X 的必要特征是【定义】，文中可见特征是【引用】，它直接造成【题干效果】。"
+
+**最常见的强干扰：**
+
+| 干扰 | 处理 |
+|------|------|
+| 文中确实有 irony，但题干问的是人物形象 | 看是否 hyperbole、metaphor、imagery 等更直接制造形象 |
+| 全文确实是 satire，但题干问某一句 technique | 局部题优先局部手法 |
+| 选项说出了作者目的，但题干问 device | 目的正确也要排除 |
+| 想选 allegory，但只有单个典故或单个象征 | 缺少系统映射，降权 |
+
+**达到目标的标志：** 当两个术语都像对的，你能说出"一个是存在，另一个才更直接回答题干"。
 
 ---
 
-## Starting Point
+## 第二部分：考场实战技巧
 
-Do not try to fix everything at once. Based on your error data (65 wrong answers, 49% from the Validation Gap), the single highest-return action is:
+五条规则。每条一个触发条件，一个动作。没有其他的。
 
-**Start with Habit 1 only. Apply it to every practice question for two weeks.**
+**前提：** 前四条规则只有在第一部分的习惯 1 和习惯 2 有一定积累后，才能可靠地发挥作用。如果完全没练过"引用再作答"，规则 1 的效果会大打折扣，因为你不知道去哪里找。规则 5 还需要习惯 5 和习惯 6 做基础。
 
-That one habit — quoting before committing — addresses almost half of your errors. Once it is automatic, add Habit 3 to identify which remaining error types are most frequent. Then add the corresponding habit for those.
+---
 
-The exam rules follow naturally once the habits are built.
+### 规则 1 — 指向测试
+*当你准备选答案但感觉不确定时使用*
+
+**触发条件：** 准备点答案，但有一点犹豫；或者在两个选项之间摇摆。
+
+**动作：** 选之前，在脑子里回答这个问题：
+
+> "这个答案在文章哪个句子里？"
+
+- 能立刻定位到具体句子 → 继续选
+- 在文章里扫 15 秒仍然找不到 → 这个选项的文本支撑很弱，换另一个选项做同样的测试
+
+**时间成本：** 5–15 秒
+
+---
+
+### 规则 2 — 代入测试
+*只对词义题和短语意思题使用*
+
+**触发条件：** 题目问某个词或短语在特定几行里的含义。
+
+**动作：**
+1. 回到文章，找到含有该词的原句
+2. 把你的选项代入那个句子
+3. 问：代入后这个句子逻辑上说得通吗？——不是情绪上，是逻辑上
+   - 语法还正常吗？
+   - 如果句子有"先给…后毁"或"先希望…后失败"的结构，你的选项符合那个逻辑后续吗？
+
+凡是代入后句子在逻辑上讲不通的选项，直接排除——即使它在情绪上感觉对。
+
+**时间成本：** 10–20 秒
+
+---
+
+### 规则 3 — 覆盖检验
+*对含有"main / most / best / primarily / most strongly"等词的题目使用*
+
+**触发条件：** 已经缩小到两个选项，题干里有上述关键词之一。
+
+**动作：** 对剩余两个选项，分别问：
+
+> "用这个答案，能解释文章多少内容——一个场景，还是大部分？"
+
+选能解释文章更多内容的那个，不是选最生动或最近读到的那个。
+
+常见失误：文章结尾或最后一个意象印象深刻，于是让结尾决定答案。如果题目问整篇文章，结尾只是一个数据点，不是答案。
+
+**时间成本：** 15–20 秒
+
+---
+
+### 规则 4 — 层级检验
+*当一个答案感觉对但又有点不对劲时使用*
+
+**触发条件：** 某个选项明显是真的，但你在犹豫，感觉有什么地方不对。
+
+**动作：** 问一个非此即彼的问题：
+
+> "这道题问的是整篇文章，还是这个具体段落/局部？"
+
+- 问整体 → 关于某一个具体场景或细节的答案是错的，不管它多真实
+- 问局部 → 关于整体主题或宏观意义的答案是错的，不管它多相关
+
+在正确层级上的真实陈述才是正确答案；层级对不上，内容再真也是错的。
+
+**时间成本：** 5 秒
+
+---
+
+### 规则 5 — 修辞四轴检验
+*对 technique / device / image / effect 类题目使用*
+
+**触发条件：** 题目考文学手法，且你在两个术语之间摇摆。
+
+**动作：** 只问四个短问题：
+
+1. 题干问局部还是全文？
+2. 题干问手法、语气、目的、主题，还是效果？
+3. 这个术语的必要特征在原文里出现了吗？
+4. 它是否比另一个选项更直接解释题干关键词？
+
+常见判断：
+
+- hyperbole 看是否极端放大；irony 看表面与真实是否相反
+- paradox 是看似矛盾但揭示真理；inconsistency 是没有深层意义的逻辑不一致
+- satire 常是全文批判目的；irony / hyperbole 常是实现 satire 的局部手法
+- symbol 是具体物承载抽象意义；motif 是反复出现的意象或情境累积意义
+- repetition 是重复；anaphora 是句首重复；parallelism 是相似语法结构并列
+
+**时间成本：** 15–25 秒
+
+---
+
+## 两部分之间的关系
+
+考场规则是训练习惯的压缩版本：
+
+| 考场规则 | 对应训练习惯 |
+|---------|------------|
+| 规则 1 — 指向测试 | 习惯 1 — 引用再作答 |
+| 规则 2 — 代入测试 | 习惯 5 — 术语记忆 + 习惯 1 |
+| 规则 3 — 覆盖检验 | 习惯 2 — 看选项前先预判 |
+| 规则 4 — 层级检验 | 习惯 3 — 给错误命名（层级错位标签） |
+| 规则 5 — 修辞四轴检验 | 习惯 5 — 文学术语专项记忆 + 习惯 6 — 修辞手法用四轴检查 |
+
+如果某条考场规则在实战中仍然用不好，说明对应的训练习惯还没积累够。回到那个习惯继续练。
+
+---
+
+## 从哪里开始
+
+不要同时练所有内容。根据你的错题数据（65 道错题，49% 源于"没验证就选了"），性价比最高的起点是：
+
+**只练习惯 1，练两周。对每一道练习题都用。**
+
+这一个习惯覆盖了将近一半的错误。等它变成自动反应，再加入习惯 3，用标签识别剩余错误里频率最高的类型，再针对性地加对应习惯。
+
+考场规则在习惯建立之后自然会好用起来。
